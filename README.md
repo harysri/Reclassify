@@ -1,11 +1,8 @@
 <div align="center">
   <br />
   <p>
- <p align="center">
-  <img
-    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='700'%20height='90'%3E%3Ctext%20x='50%25'%20y='50%25'%20dominant-baseline='middle'%20text-anchor='middle'%20font-family='Fira%20Code%2C%20monospace'%20font-size='48'%20font-weight='700'%20fill='%23059669'%3E%E2%99%BB%EF%B8%8F%20ReClassify%3C/text%3E%3C/svg%3E"
-    alt="ReClassify"
-  />
+<p align="center">
+  <img src="./screenshots/logo.svg" alt="ReClassify" width="700" />
 </p>
   </p>
 
@@ -154,7 +151,7 @@
 ### 1️⃣ Clone
 
 ```bash
-git clone https://github.com/harysri/reclassify.git
+git clone https://github.com/harysri/Reclassify.git
 cd reclassify
 ```
 
@@ -371,7 +368,7 @@ reclassify/
 
 <div align="center">
   <h3 align="left">Home Page</h3>
-  <img src="./screenshots/home.png" alt="Home Page" width="800"/>
+  <img src="./screenshots/Home.png" alt="Home Page" width="800"/>
 
   <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:16px; margin-top:16px;">
     <div>

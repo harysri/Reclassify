@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="90" viewBox="0 0 700 90">
+  <text
+    x="50%"
+    y="50%"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="Fira Code, Consolas, monospace"
+    font-size="48"
+    font-weight="700"
+    fill="#059669">
+    ♻️ ReClassify
+  </text>
+</svg>

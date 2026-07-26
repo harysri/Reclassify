@@ -60,8 +60,16 @@ const Footer = ({ userRole = "guest" }) => {
   ];
 
   const socialLinks = [
-    { name: "GitHub", icon: "github", url: "https://github.com/reclassify" },
-    { name: "Documentation", icon: "docs", url: "https://docs.reclassify.com" },
+    {
+      name: "GitHub",
+      icon: "github",
+      url: "https://github.com/harysri/Reclassify",
+    },
+    {
+      name: "Documentation",
+      icon: "docs",
+      url: "https://github.com/harysri/Reclassify",
+    },
   ];
 
   return (
