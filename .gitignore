@@ -1,0 +1,272 @@
+# ─────────────────────────────────────────────────────────────
+#  ReClassify — Root .gitignore
+#  Covers: client/ · server/ · torch_backend_py/ · screenshots/
+# ─────────────────────────────────────────────────────────────
+
+
+# =============================================================================
+#  DEPENDENCIES & PACKAGE DIRECTORIES
+# =============================================================================
+
+# Node.js (client + server)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Python (AI microservice)
+torch_backend_py/venv/
+torch_backend_py/__pycache__/
+torch_backend_py/*.egg-info/
+torch_backend_py/.mypy_cache/
+torch_backend_py/.pytest_cache/
+
+
+# =============================================================================
+#  BUILD OUTPUTS
+# =============================================================================
+
+# Vite / React build (client)
+client/dist/
+client/dist-ssr/
+
+# Any other build dirs
+dist/
+build/
+out/
+release/
+
+
+# =============================================================================
+#  ENVIRONMENT & SECRETS
+# =============================================================================
+
+# Environment files (contain real secrets — DO NOT commit)
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Specific server env (already contains credentials)
+server/.env
+
+# Credentials, keys, certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.cert
+credentials.json
+service-account.json
+*.secrets.*
+
+
+# =============================================================================
+#  RUNTIME, LOGS & CACHE
+# =============================================================================
+
+# Logs
+logs/
+*.log
+*.debug
+
+# Runtime temp files
+tmp/
+temp/
+*.tmp
+
+# Editor swap files
+*.swp
+*.swo
+*.swn
+*~
+
+
+# =============================================================================
+#  IDE & EDITOR CONFIGURATION
+# =============================================================================
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+
+# JetBrains (WebStorm, IntelliJ, PyCharm, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio
+.vs/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Vim / NeoVim
+*.swp
+*.swo
+*.un~
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+
+
+# =============================================================================
+#  OS FILES
+# =============================================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+
+# =============================================================================
+#  PYTHON (AI Microservice)
+# =============================================================================
+
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cython
+*.so
+*.pyd
+
+# Virtual environments (anywhere)
+venv/
+.venv/
+env/
+.env/
+
+# Package install directories
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# PyTorch / ML artifacts (large model files)
+torch_backend_py/weights/*.pth
+torch_backend_py/weights/*.pt
+torch_backend_py/weights/*.pkl
+torch_backend_py/runs/
+torch_backend_py/wandb/
+torch_backend_py/checkpoints/
+torch_backend_py/data/
+torch_backend_py/.torch/
+
+# Ensure the weights directory itself is trackable (e.g., for a .gitkeep)
+!torch_backend_py/weights/.gitkeep
+
+# Config files we want to keep
+!torch_backend_py/.env.example
+
+
+# =============================================================================
+#  NODE.JS (Backend + Frontend)
+# =============================================================================
+
+# Server uploads — user-generated content (do not commit)
+server/uploads/*
+
+# Keep the uploads directory structure
+!server/uploads/.gitkeep
+
+# Server temp files
+server/tmp/
+
+# ESLint
+client/.eslintcache
+.eslintcache
+
+# Vite
+client/.vite/
+
+
+# =============================================================================
+#  MISC / PROJECT-SPECIFIC
+# =============================================================================
+
+
+
+# Co-authored-by / patch files
+*.patch
+*.diff
+
+# Docker (if added later)
+.docker/
+docker-compose.override.yml
+*.dockerignore
+
+# Coverage reports (if testing is added later)
+coverage/
+.nyc_output/
+htmlcov/
+.tox/
+
+# IDE misc
+*.code-workspace
+
+
+# =============================================================================
+#  KEEP ESSENTIAL FILES (explicitly tracked)
+# =============================================================================
+
+!.gitignore
+!README.md
+!LICENSE
+!.env.example
