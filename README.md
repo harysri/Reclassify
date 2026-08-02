@@ -53,6 +53,8 @@
 
 ---
 
+<a id="features"></a>
+
 ## ✨ Features
 
 ### 👤 User Module
@@ -96,6 +98,8 @@
 
 ---
 
+<a id="tech-stack"></a>
+
 ## 🧱 Tech Stack
 
 ```
@@ -137,6 +141,8 @@
 
 ---
 
+<a id="getting-started"></a>
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -152,7 +158,7 @@
 
 ```bash
 git clone https://github.com/harysri/Reclassify.git
-cd reclassify
+cd Reclassify
 ```
 
 ### 2️⃣ Environment Variables
@@ -293,6 +299,8 @@ reclassify/
 
 ---
 
+<a id="api-endpoints"></a>
+
 ## 🔌 API Endpoints
 
 > All endpoints (except auth) require `Authorization: Bearer <jwt_token>` header.
@@ -363,6 +371,8 @@ reclassify/
 | `GET`  | `/api/health` | `{ "status": "ok" }` |
 
 ---
+
+<a id="screenshots"></a>
 
 ## Screenshots
 
@@ -481,12 +491,6 @@ git push origin feature/amazing-feature
 - Frontend: Run `cd client && npm run dev` before submitting
 - Backend: Follow existing patterns (CommonJS `require`, `async/await`, error-first middleware)
 - AI: Keep requirements.txt up to date
-
----
-
-## 📄 License
-
-Distributed under the **MIT License**. See [`LICENSE`](./LICENSE) for details.
 
 ---
 
