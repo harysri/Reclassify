@@ -171,7 +171,7 @@ MONGO_URI=mongodb+srv://<user>:<password>@cluster.xxxxx.mongodb.net/reclassify?r
 JWT_SECRET=your_super_secret_jwt_key_here
 FASTAPI_BASE_URL=http://localhost:8000
 ADMIN_EMAIL=admin@reclassify.com
-ADMIN_PASSWORD=Admin@123
+ADMIN_PASSWORD=Create your admin password here
 ```
 
 ### 3️⃣ Backend
