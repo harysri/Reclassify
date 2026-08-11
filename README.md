@@ -380,11 +380,11 @@ reclassify/
   <h3 align="left">Home Page</h3>
   <img src="./screenshots/Home.png" alt="Home Page" width="800"/>
 
-  <img src="./screenshots/Home2.png" alt="Home Page" width="800"/>
+  <img src="./screenshots/home2.png" alt="" width="800"/>
 
-  <img src="./screenshots/Home3.png" alt="Home Page" width="800"/>
+  <img src="./screenshots/home3.png" alt="Home Page" width="800"/>
 
-  <img src="./screenshots/Home4.png" alt="Home Page" width="800"/>
+  <img src="./screenshots/home4.png" alt="Home Page" width="800"/>
 
   <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:16px; margin-top:16px;">
     <div>
