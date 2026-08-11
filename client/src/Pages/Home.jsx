@@ -408,12 +408,7 @@ const ReclassifyHome = () => {
               icon={Icons.Truck}
               title="Structured Pickup"
               description="Book seamless, scheduled collections from verified local drivers right from your doorstep."
-              items={[
-                "Verified Drivers",
-                "Route Optimization",
-                "Scheduled Slots",
-                "Real-time Tracking",
-              ]}
+              items={["Verified Drivers", "Scheduled Slots"]}
             />
             <PillarCard
               icon={Icons.Gift}
@@ -449,24 +444,7 @@ const ReclassifyHome = () => {
                 user experience combines AI-powered scanning, gamified tracking,
                 and a curated marketplace of premium recycled products.
               </p>
-              <div className="flex gap-4">
-                <div className="bg-white border-4 border-emerald-950 p-4 shadow-[6px_6px_0px_rgba(6,78,59,1)] text-center">
-                  <div className="text-3xl font-extrabold text-emerald-600">
-                    50K+
-                  </div>
-                  <div className="text-sm font-bold uppercase tracking-wider">
-                    Active Users
-                  </div>
-                </div>
-                <div className="bg-white border-4 border-emerald-950 p-4 shadow-[6px_6px_0px_rgba(6,78,59,1)] text-center">
-                  <div className="text-3xl font-extrabold text-emerald-600">
-                    2M+
-                  </div>
-                  <div className="text-sm font-bold uppercase tracking-wider">
-                    Items Scanned
-                  </div>
-                </div>
-              </div>
+              <div className="flex gap-4"></div>
             </div>
 
             {/* User Module Visual */}
@@ -754,43 +732,11 @@ const ReclassifyHome = () => {
                 real-time job management, and instant verification tools
                 designed for waste collection professionals.
               </p>
-              <div className="flex gap-4">
-                <div className="bg-white border-4 border-blue-950 p-4 shadow-[6px_6px_0px_rgba(23,37,84,1)] text-center">
-                  <div className="text-3xl font-extrabold text-blue-600">
-                    5K+
-                  </div>
-                  <div className="text-sm font-bold uppercase tracking-wider">
-                    Verified Drivers
-                  </div>
-                </div>
-                <div className="bg-white border-4 border-blue-950 p-4 shadow-[6px_6px_0px_rgba(23,37,84,1)] text-center">
-                  <div className="text-3xl font-extrabold text-blue-600">
-                    98%
-                  </div>
-                  <div className="text-sm font-bold uppercase tracking-wider">
-                    On-Time Rate
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
 
           {/* Driver Features Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white border-4 border-blue-950 p-6 shadow-[8px_8px_0px_rgba(23,37,84,1)] hover:shadow-[12px_12px_0px_rgba(23,37,84,1)] hover:-translate-x-1 hover:-translate-y-1 transition-all">
-              <div className="bg-blue-100 w-14 h-14 border-4 border-blue-950 flex items-center justify-center mb-4">
-                <Icons.Navigation />
-              </div>
-              <h3 className="text-xl font-extrabold text-blue-950 mb-2">
-                Smart Routing
-              </h3>
-              <p className="text-blue-800 text-sm leading-relaxed">
-                AI-optimized collection routes that minimize travel time and
-                fuel costs. Turn-by-turn navigation designed for waste
-                collection vehicles.
-              </p>
-            </div>
-
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white border-4 border-blue-950 p-6 shadow-[8px_8px_0px_rgba(23,37,84,1)] hover:shadow-[12px_12px_0px_rgba(23,37,84,1)] hover:-translate-x-1 hover:-translate-y-1 transition-all">
               <div className="bg-blue-100 w-14 h-14 border-4 border-blue-950 flex items-center justify-center mb-4">
                 <Icons.CheckCircle />
@@ -972,46 +918,6 @@ const ReclassifyHome = () => {
             >
               Browse All Rewards
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="py-20 px-6 md:px-12 bg-emerald-950 text-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-5xl font-extrabold mb-2 text-emerald-400">
-                150K+
-              </div>
-              <div className="text-sm uppercase tracking-widest font-bold opacity-80">
-                Active Users
-              </div>
-            </div>
-            <div>
-              <div className="text-5xl font-extrabold mb-2 text-emerald-400">
-                5K+
-              </div>
-              <div className="text-sm uppercase tracking-widest font-bold opacity-80">
-                Verified Drivers
-              </div>
-            </div>
-            <div>
-              <div className="text-5xl font-extrabold mb-2 text-emerald-400">
-                2.5M+
-              </div>
-              <div className="text-sm uppercase tracking-widest font-bold opacity-80">
-                Items Recycled
-              </div>
-            </div>
-            <div>
-              <div className="text-5xl font-extrabold mb-2 text-emerald-400">
-                500K+
-              </div>
-              <div className="text-sm uppercase tracking-widest font-bold opacity-80">
-                Points Redeemed
-              </div>
-            </div>
           </div>
         </div>
       </section>
