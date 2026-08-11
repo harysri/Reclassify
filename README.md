@@ -486,14 +486,6 @@ git push origin feature/amazing-feature
 # 5. Open a Pull Request
 ```
 
-### Code Style
-
-- Frontend: Run `cd client && npm run dev` before submitting
-- Backend: Follow existing patterns (CommonJS `require`, `async/await`, error-first middleware)
-- AI: Keep requirements.txt up to date
-
----
-
 ## 👤 Author
 
 **Srihari Satheeshan**
